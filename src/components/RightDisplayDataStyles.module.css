@@ -1,0 +1,283 @@
+/* ข้อมูลหน้าส่วนขวา */
+
+.PaperDisplayDataRight{
+    height: 730px;
+    padding: 20px;
+    box-shadow: none;
+}
+
+/* Preview และปุ่ม Delete & Save */
+
+.TextPreview{
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.DeleteButton{
+    background-color: #1C2060;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.SaveButton{
+    background-color: #1C2060;
+    border-radius: 5px;
+}
+
+/* หน้าแสดงผลการเปลี่ยนสี */
+
+.LeftAndRightDisplay{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* หน้าแสดงผลด้านซ้าย */ /* หน้าแสดงผลด้านซ้าย */ /* หน้าแสดงผลด้านซ้าย */ /* หน้าแสดงผลด้านซ้าย */ /* หน้าแสดงผลด้านซ้าย */ /* หน้าแสดงผลด้านซ้าย */ /* หน้าแสดงผลด้านซ้าย */ /* หน้าแสดงผลด้านซ้าย */
+
+.GridLeftDisplay{
+    margin-right: 20px;
+    width: 460px;
+    height: 690px;
+    border: 1px solid hsl(0, 0%, 20%);
+}
+
+/* ส่วนบนเกี่ยวกับวันที่ เวลา และ สลับภาษา */
+
+.BoxDateAndSwitchLanguage{
+    width: 460px;
+    height: 75px;
+    transition: 0.25s ease;
+    display: flex;
+    align-items: center;
+}
+
+.DateBox{
+    flex: 1;
+    height: 100%;
+}
+
+.Date{
+    margin-right: 10px;
+    transform: translate(10px, 10px);
+}
+
+.SwitchLanguage{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+/* ส่วนกลาง */
+
+/* Text Please Select */
+.BoxTextinMiddle{
+    width: 460px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.TypographyTextinMiddle{
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ปุ่มใหญ่อันกลาง */
+.BoxButtonLargeSize{
+    width: 450px;
+    height: 275px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.ButtonLargeSizeLeft{
+    margin-left: 10px;
+    background-color: #302F35;
+    width: 220px;
+    height: 230px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+
+.ButtonLargeSizeRight{
+    margin-left: 10px;
+    background-color: #302F35;
+    width: 220px;
+    height: 230px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 0 50px 50px 0;
+    border: none;
+}
+
+/* ปุ่มเล็กอันล่าง */
+.BoxButtonSmallSize{
+    width: 460px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonSmallSizeLeft{
+    background-color: #302F35;
+    width: 190px;
+    height: 85px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 30px 0 0 30px;
+    border: none;
+}
+
+.ButtonSmallSizeRight{
+    margin-left: 10px;
+    background-color: #302F35;
+    width: 190px;
+    height: 85px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 0 30px 30px 0;
+    border: none;
+}
+
+/* ส่วนล่าง */
+
+.BackgroundBottom{
+    width: 460px;
+    height: 65px;
+    transition: 0.25s ease;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+/* หน้าแสดงผลด้านขวา */ /* หน้าแสดงผลด้านขวา */ /* หน้าแสดงผลด้านขวา */ /* หน้าแสดงผลด้านขวา */ /* หน้าแสดงผลด้านขวา */ /* หน้าแสดงผลด้านขวา */ /* หน้าแสดงผลด้านขวา */ /* หน้าแสดงผลด้านขวา */
+
+.GridRightDisplay{
+    width: 460px;
+    height: 690px;
+    border: 1px solid hsl(0, 0%, 20%);
+}
+
+/* ส่วนกลาง */
+
+.BoxTextVerifyPasscode{
+    width: 460px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.FCSelectFloor{
+    padding: 1rem;
+    height: 1rem;
+    width: 12rem;
+    margin: 15px auto;
+}
+
+.BoxFormControlSelectFloorAndResidence{
+    width: 460px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FCSelectResidence{
+    display: flex;
+    padding: 1rem;
+    height: 1rem;
+    width: 12rem;   
+    margin: 15px auto;
+}
+
+.BoxFormControlSelectUser{
+    width: 460px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FCSelectUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    height: 4rem;
+    width: 12rem;
+    margin: 0 auto;
+}
+
+.RenderValue1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.RenderValue2{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* ส่วนล่าง */
+
+.BoxForgetButtonAndHomeIconAndChangePasscodeButton{
+    width: 435px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.BoxForgetButton{
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ForgetButton{
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    background: linear-gradient(to bottom, #331098, #946197);
+    border-radius: 40px;
+    text-transform: none;
+}
+
+.BoxHomeIcon{
+    width: 53px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.HomeIcon{
+    font-size: 30px;
+    color: yellow;
+}
+
+.BoxChangePasscodeButton{
+    width: 180px;
+    height: 70px;
+}
+
+.ChangePasscodeButton{
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #331098, #946197);
+    text-transform: none;
+}

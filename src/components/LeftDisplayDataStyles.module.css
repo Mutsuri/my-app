@@ -1,0 +1,38 @@
+/* ข้อมูลหน้าส่วนซ้าย */
+
+.GridDisplayLeft{
+    height: 780px;
+}
+
+.PaperDisplayLeft{
+    height: 700px;
+    padding: 20px;
+    box-shadow: none;
+    overflow-y: auto;
+}
+
+.changeLangugeTHButtonOff{
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+.changeLangugeENButtonOn{
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    margin-right: 14px;
+    width: 32px;
+    height: 32px;
+}
